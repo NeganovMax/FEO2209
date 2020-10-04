@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        .Surname_form {
+            border: 2px solid #bdbdbd;
+            padding: 24px 12px;
+            /* border-radius: 4px; (закругление рамки) */
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .Surname_form__sur {
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .feedback-form__title {
+            font-size: 20px
+        }
+
+        .feedback-form__title_tas:nth-child(n+2) {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form class="Surname_form">
+        <div class="feedback-form__title"><b>Form</b></div>
+        <fieldset class="feedback-form__title_tas">
+        <legend>Personal information</legend>
+        <label class="Surname_form__sur">
+            Surname:
+            <input type="text" name="Surname" required>
+        </label>
+        <label  class="Surname_form__sur">
+            Name:
+            <input type="text" name="login" required>
+        </label>
+        <label class="Surname_form__sur">
+            How old are You?
+            <input type="text" name="old" required>
+        </label>
+        <label class="Surname_form__sur">
+            Full date of birth:
+            <input type="date" name="date" required>
+        </label>
+        <label class="Surname_form__sur">
+            I accept the term of the agreement:
+            <input type="checkbox" name="agreement" required>
+        </label>
+        </fieldset>
+        <fieldset class="feedback-form__title_tas">
+            <legend>Registration</legend>
+            <label class="Surname_form__sur">
+                E-mail:
+                <input type="E-mail" name="E-mail" required placeholder="test@gmail.com">
+            </label>
+            <label  class="Surname_form__sur">
+                Password:
+                <input type="password" name="password" required>
+            </label>
+        </fieldset>
+        <fieldset class="feedback-form__title_tas">
+            <legend>An interesting fact about you!</legend>
+            <label class="Surname_form__sur">
+                Do you love cats?
+                <input type="radio" name="drink" value="rad1"> Yes
+                <input type="radio" name="drink" value="rad2"> No
+            </label>
+            <label class="Surname_form__sur">
+                What is your favorite color?
+                <input type="color">
+            </label>
+            <label class="Surname_form__sur">
+                <span class="Fast about">What time doyou go to bed?</span>
+                <input type="time">
+            </label>
+            <label class="Surname_form__sur">
+                <span class="Fast about">What is your favorite brand of cars?</span>
+                <select name="value" multiple>
+                    <option value="v1">BMW</option>
+                    <option value="v2">Audi</option>
+                    <option value="v3">Lada</option>
+                </select>
+            </label>
+            <label class="Surname_form__sur">
+                <span class="Fast about">How do you rate our work?</span>
+                <input type="range" min="1" max="10">
+            </label>
+        </fieldset>
+        <fieldset class="feedback-form__title_tas">
+            <legend>Additional info:</legend>
+            <label class="Surname_form__sur">
+                Comments:
+                <textarea name="text" required></textarea>
+            </label>
+            <label  class="Surname_form__sur">
+                Would you recomment us?
+                <select name="checked">
+                    <option value="v1">Yes</option>
+                    <option value="v2">No</option>
+            </label>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
