@@ -7,16 +7,17 @@
     <style>
         .Surname_form {
             border: 2px solid #bdbdbd;
-            padding: 24px 12px;
-            /* border-radius: 4px; (закругление рамки) */
+            padding: 24px 24px;
+            /* (закругление рамки) */
+            /* border-radius: 7px; */
             width: 100%;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
         }
 
         .Surname_form__sur {
             display: block;
-            margin-bottom: 12px;
+            margin-bottom: 6px;
         }
 
         .feedback-form__title {
@@ -24,12 +25,12 @@
         }
 
         .feedback-form__title_tas:nth-child(n+2) {
-            margin-top: 20px;
+            margin-top: 12px;
         }
     </style>
 </head>
 <body>
-    <form class="Surname_form">
+    <form class="Surname_form" method="POST" action="https://echo.htmlacademy.ru/">
         <div class="feedback-form__title"><b>Form</b></div>
         <fieldset class="feedback-form__title_tas">
         <legend>Personal information</legend>
