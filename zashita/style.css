@@ -501,7 +501,7 @@
     position: absolute;
     width: 198px;
     height: 25px;
-    left: 0px;
+    left: -90px;
     top: -25px;
 
     font-family: Open Sans;
@@ -523,7 +523,7 @@
     position: absolute;
     width: 50px;
     height: 2px;
-    left: 0px;
+    left: -90px;
     top: 34px;
 }
 
@@ -573,7 +573,7 @@
     position: absolute;
     width: 405.4px;
     height: 38px;
-    left: 353px;
+    left: 253px;
     top: 0px;
 
     font-family: Open Sans;
@@ -595,7 +595,7 @@
     position: absolute;
     width: 295px;
     height: 330px;
-    left: 645px;
+    left: 615px;
     top: 116px;
 
     background: #FFFFFF;
@@ -661,7 +661,7 @@
     position: absolute;
     width: 295px;
     height: 330px;
-    left: 323px;
+    left: 283px;
     top: 116px;
 
     background: #FFFFFF;
@@ -726,7 +726,7 @@
     position: absolute;
     width: 295px;
     height: 330px;
-    left: 0px;
+    left: -50px;
     top: 116px;
 
     background: #FFFFFF;
@@ -785,3 +785,79 @@
     left: 23px;
     top: 38px;
 }
+
+.get-in {
+    position: absolute;
+    width: 1440px;
+    height: 499px;
+    left: calc(50% - 1440px/2);
+    bottom: 397px;
+
+    }
+
+.get-in_fon {
+    position: absolute;
+    width: 1440px;
+    height: 498.24px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.get-in_fon_text {
+    position: absolute;
+    width: 350px;
+    height: 72px;
+    left: 545px;
+    top: 120px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15px;
+    
+    color: #48555B;
+
+    }
+
+    .contact-bth {
+        position: absolute;
+        width: 110px;
+        height: 40px;
+        left: 645px;
+        top: 227px;
+        
+        background: #00A4E5;
+
+    }
+
+    .contact-bth_text {
+        position: absolute;
+        width: 98px;
+        height: 18px;
+        left: 26px;
+        top: 11px;
+        
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 18px;
+        /* identical to box height */
+        
+        display: flex;
+        align-items: flex-end;
+        text-align: center;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        
+        color: #FFFFFF;
+    
+    }
