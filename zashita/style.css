@@ -861,3 +861,142 @@
         color: #FFFFFF;
     
     }
+
+    .newsletter {
+        position: absolute;
+        width: 1440px;
+        height: 101px;
+        left: calc(50% - 1440px/2);
+        bottom: 298px;
+
+        background: #171819;
+
+    }
+
+.content {
+            position: absolute;
+            width: 685px;
+            height: 40px;
+            left: 378px;
+            top: 30px;
+
+     }
+
+.content_text {
+            position: absolute;
+            width: 216px;
+            height: 30px;
+            left: 0px;
+            top: 5px;
+            
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 21px;
+            line-height: 100px;
+            /* identical to box height */
+            
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+            letter-spacing: 0.846154px;
+            
+            color: #FFFFFF;
+        
+    }
+
+.form {
+            position: absolute;
+            width: 250px;
+            height: 40px;
+            left: 286px;
+            top: -15px;
+            
+            background: #FFFFFF;
+            border: 1px solid #979797;
+            box-sizing: border-box;
+        
+}
+
+.form__sur {
+            position: absolute;
+            width: 136px;
+            height: 19px;
+            left: 10px;
+            top: 11px;
+            
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            /* identical to box height */
+            
+            display: flex;
+            align-items: flex-end;
+            letter-spacing: 0.07px;
+            
+            color: #48555B;
+            
+}
+
+.form__sur_1 {
+    position: absolute;
+    width: 136px;
+    height: 19px;
+    left: 10px;
+    top: -5px;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.07px;
+    
+    color: #48555B;
+    border: 2px solid transparent;
+}
+
+.button_kap {
+    position: absolute;
+    width: 150px;
+    height: 36px;
+    left: 249px;
+    top: -1px;
+    border: 2px solid transparent;
+    
+    background: #00A4E5;
+}
+
+.button_kaps_1 {
+    position: absolute;
+    width: 52px;
+    height: 18px;
+    left: 48.5px;
+    top: 11px;
+    border: none;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    cursor: pointer;
+    outline: none;
+
+    color: #FFFFFF;
+    background: #00A4E5;
+
+}
