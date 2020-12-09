@@ -278,6 +278,7 @@
     height: 344px;
     left: 359px;
     top: 891px;
+    display: flex;
 
     /* display: flex; */
     /* align-items: baseline; */
