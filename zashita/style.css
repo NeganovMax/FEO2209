@@ -171,7 +171,7 @@
 
     font-family: Open Sans;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 12px;
     line-height: 16px;
     display: flex;
@@ -180,7 +180,7 @@
     letter-spacing: 1.09091px;
     text-decoration: none;
 
-    color: #00A4E5;
+    color: #48555B;
 
 }
 
@@ -1330,18 +1330,9 @@
     color: #00A4E5;
 }
 
-@media print {
-    body { font-size: 10pt }
-  }
-  @media screen {
-    body { font-size: 13px }
-  }
-  @media screen, print {
-    body { line-height: 1.2 }
-  }
-  @media only screen 
-    and (min-device-width: 320px) 
-    and (max-device-width: 480px)
-    and (-webkit-min-device-pixel-ratio: 2) {
-      body { line-height: 1.4 }
-  }
+a:hover { 
+    font-weight: bold;
+
+    color: #00A4E5;
+}
+
