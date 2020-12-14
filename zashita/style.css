@@ -1,6 +1,6 @@
 .HD {
     position: relative;
-    width: auto;
+    width: 100%;
     height: 2810px;
     margin: 0 auto;
     max-width: 1440px;
@@ -9,7 +9,7 @@
 }
 .header {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 768px;
     left: calc(50% - 1440px/2);
     top: 0px;
@@ -18,7 +18,7 @@
 
 .header_1 {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 768px;
     left: 0px;
     top: 0px;
