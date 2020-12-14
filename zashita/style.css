@@ -9,7 +9,7 @@
 }
 .header {
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 768px;
     left: calc(50% - 1440px/2);
     top: 0px;
