@@ -3,15 +3,15 @@
     width: 100%;
     height: 2810px;
     margin: 0 auto;
-    max-width: 1440px;
+    /* max-width: 1440px; */
 
     background: #FFFFFF;
 }
 .header {
     position: absolute;
-    width: 1440px;
-    height: 768px;
-    left: calc(50% - 1440px/2);
+    width: 100%;
+    /* height: 768px; */
+    /* left: calc(50% - 1440px/2); */
     top: 0px;
 
 }
@@ -19,7 +19,7 @@
 .header_1 {
     position: absolute;
     width: 100%;
-    height: 768px;
+    /* height: 768px; */
     left: 0px;
     top: 0px;
     
@@ -32,9 +32,10 @@
 .header_1_1 {
     position: absolute;
     width: 100%;
-    height: 769px;
+    /* height: 769px; */
     left: 1px;
     top: -1px;
+    display: flex;
 
 }
 
@@ -56,9 +57,8 @@
     align-items: flex-end;
     text-align: center;
     letter-spacing: 3.7px;
-    
-    color: #FFFFFF;
 
+    color: #FFFFFF;
     }
 
 .an {
