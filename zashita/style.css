@@ -1,8 +1,9 @@
 .HD {
     position: relative;
-    width: 100%;
+    width: auto;
     height: 2810px;
     margin: 0 auto;
+    max-width: 1440px;
 
     background: #FFFFFF;
 }
@@ -274,19 +275,18 @@
 
 .about {
     position: absolute;
-    width: 100%;
+    width: 941px;
     height: 344px;
-    left: 359px;
+    left: calc(50% - 941px/2);
     top: 891px;
     display: flex;
 
-    /* display: flex; */
-    /* align-items: baseline; */
+    align-items: center;
 
 }
 
 .our {
-    position: absolute;
+    position: inherit;
     width: 121px;
     height: 25px;
     left: 411px;
@@ -1372,3 +1372,8 @@
 
     color: #00A4E5;
 }
+
+/* @media (min-width: 768px) {
+    .header_1 {
+      max-width: 750px;}
+    } */
