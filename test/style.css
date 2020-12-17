@@ -203,10 +203,150 @@ body {
 .sel_help {
     background: #FFFFFF;
     display: flex;
+    justify-content:center;
+
+    flex-wrap: wrap;
+    
 }
 
 .selekt__cont-1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    color: rgba(34, 53, 111, 0.5);
 }
 
-.selekt__cont-1_1 {
+.selekt__cont-11 {
+    font-family: Larsseit;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    
+
+}
+
+.sel_help-1 {
+    display: flex;
+    background: #FFE2DE;
+
+    font-family: Larsseit;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+ 
+    padding: 6.7%;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1440;
+}
+
+.sel_help-2 {
+    display: flex;
+    background: #C4E769;
+
+    font-family: Larsseit;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+
+    padding: 4.7%;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1440;
+
+}
+
+.sel_help-3 {
+    display: flex;
+    background: #62D0DF;
+
+    font-family: Larsseit;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+
+    color: #FFFFFF;
+
+
+    padding: 6.7%;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1440;
+
+}
+
+.sel_help-4 {
+    display: flex;
+    background: #0052C1;
+    
+    font-family: Larsseit;
+    font-size: 32px;
+    line-height: 34px;
+    letter-spacing: -0.006em;
+    
+    color: #FFFFFF;
+
+    padding: 5.7%;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1440;
+
+}
+
+.sel_des {
+    box-shadow: inset 0px 1px 0px #FFFFFF;
+    
+}
+
+.eleps {
+    width: 9px;
+    height: 9px;
+    background: #E9B730;
+    border-radius: 50%;
+}
+
+.group {
+    background: #FFFFFF;
+    display: flex;
+    justify-content:center;
+
+    flex-wrap: wrap;
+}
+
+.group_1 {
+    display: flex;
+    background: #22356F;
+}
+
+.group_2 {
+    display: flex;
+    background: #0052C1;
+}
+
+.group_3 {
+    display: flex;
+}
+
+.group_4 {
+    display: flex;
+    background: #62D0DF;
+}
+
+.group_5 {
+    display: flex;
+    background: #DEE1FF;
+}
+
+.group_6 {
+    display: flex;
+    background: #8F00FF;
 }
