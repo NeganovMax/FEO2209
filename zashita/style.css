@@ -980,7 +980,7 @@
     bottom: 0px; */
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
 
     background: #141A20;
