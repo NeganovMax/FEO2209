@@ -58,7 +58,7 @@
     height: 15px;
     left: 661.5px;
     top: 682px; */
-    top: 82%;
+    top: 31%;
     
     font-family: Open Sans;
     font-style: normal;
@@ -80,7 +80,7 @@
     /* width: 386px;
     height: 22px;
     left: 527.5px; */
-    top: 60%;
+    top: 25%;
 
     font-family: Open Sans;
     font-style: normal;
@@ -102,7 +102,7 @@
     /* width: 576px;
     height: 60px;
     left: 435px; */
-    top: 45%;
+    top: 19%;
 
     font-family: BebasNeueBold;
     font-size: 2.1212rem;
@@ -121,7 +121,7 @@
     /* width: 101.62px;
     height: 23px; */
     /* left: 44%; */
-    top: 5%;
+    top: 2%;
 
     display: flex;
     justify-content: center;
@@ -510,7 +510,6 @@
 }
 
 
-
 .services_3-3 {
     /* position: absolute;
     width: 295px;
@@ -521,6 +520,11 @@
     background: #FFFFFF;
     border: 1px solid #E6E6E6;
     box-sizing: border-box;
+    padding: 0 20px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 400px;
+   
 
 }
 
@@ -531,6 +535,7 @@
     left: 23px;
     top: 38px; */
 
+    margin: 5%;
 }
 
 .services_3_3 {
@@ -587,6 +592,10 @@
     background: #FFFFFF;
     border: 1px solid #E6E6E6;
     box-sizing: border-box;
+    padding: 0 20px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 400px;
 
 }
 
@@ -596,6 +605,7 @@
     height: 75px;
     left: 23px;
     top: 38px; */
+    margin: 5%;
 }
 
 .services_2_2 {
@@ -652,6 +662,10 @@
     background: #FFFFFF;
     border: 1px solid #E6E6E6;
     box-sizing: border-box;
+    padding: 0 20px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 400px;
 
 }
 
@@ -704,32 +718,39 @@
     height: 75px;
     left: 23px;
     top: 38px; */
+    margin: 5%;
+
+    
 }
 
 .get-in {
-    position: absolute;
-    width: 1440px;
+    /* position: absolute; */
+    /* width: 1440px;
     height: 499px;
     left: calc(50% - 1440px/2);
-    bottom: 397px;
+    bottom: 397px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 
     }
 
 .get-in_fon {
-    position: absolute;
+    /* position: absolute;
     width: 1440px;
     height: 498.24px;
     left: 0px;
-    top: 0px;
+    top: 0px; */
 
 }
 
 .get-in_fon_text {
     position: absolute;
-    width: 350px;
+    /* width: 350px;
     height: 72px;
     left: 545px;
-    top: 120px;
+    top: 120px; */
     
     font-family: Open Sans;
     font-style: normal;
@@ -737,6 +758,7 @@
     font-size: 30px;
     line-height: 36px;
     /* or 120% */
+    left: 35%;
     
     display: flex;
     align-items: center;
@@ -749,21 +771,23 @@
 
 .contact-bth {
         position: absolute;
-        width: 110px;
+        /* width: 110px;
         height: 40px;
         left: 645px;
-        top: 227px;
+        top: 227px; */
+        left: 45%;
+        top: 90%;
         
         background: #00A4E5;
 
     }
 
 .contact-bth_text {
-        position: absolute;
+        /* position: absolute;
         width: 98px;
         height: 18px;
         left: 26px;
-        top: 11px;
+        top: 11px; */
         
         font-family: Open Sans;
         font-style: normal;
@@ -777,46 +801,56 @@
         text-align: center;
         letter-spacing: 0.5px;
         text-decoration: none;
+        left: 100%;
         
         color: #FFFFFF;
     
     }
 
 .newsletter {
-        position: absolute;
+        /* position: absolute;
         width: 1440px;
         height: 101px;
         left: calc(50% - 1440px/2);
-        bottom: 298px;
+        bottom: 298px; */
+        display: flex;
+        /* width: 100%; */
+        flex-direction: row;
+        text-align: center;
+
 
         background: #171819;
 
     }
 
 .content {
-            position: absolute;
+            /* position: absolute;
             width: 685px;
             height: 40px;
             left: 378px;
-            top: 30px;
+            top: 30px; */
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
 
      }
 
 .content_text {
-            position: absolute;
+            /* position: absolute;
             width: 216px;
             height: 30px;
             left: 0px;
             top: 5px;
-            
+             */
             font-family: Open Sans;
             font-style: normal;
             font-weight: bold;
             font-size: 21px;
-            line-height: 100px;
             /* identical to box height */
             
             display: flex;
+            justify-content: c;
             align-items: flex-end;
             text-align: center;
             letter-spacing: 0.846154px;
@@ -826,12 +860,14 @@
     }
 
 .form {
-            position: absolute;
+            /* position: absolute;
             width: 250px;
             height: 40px;
             left: 286px;
-            top: -15px;
-            
+            top: -15px; */
+            display: flex;
+            text-align: end;
+            justify-content: end;
             background: #FFFFFF;
             border: 1px solid #979797;
             box-sizing: border-box;
@@ -839,11 +875,11 @@
 }
 
 .form__sur {
-            position: absolute;
+            /* position: absolute;
             width: 136px;
             height: 19px;
             left: 10px;
-            top: 11px;
+            top: 11px; */
             
             font-family: Open Sans;
             font-style: normal;
@@ -861,11 +897,11 @@
 }
 
 .form__sur_1 {
-    position: absolute;
+    /* position: absolute;
     width: 136px;
     height: 19px;
     left: 10px;
-    top: -5px;
+    top: -5px; */
     
     font-family: Open Sans;
     font-style: normal;
@@ -883,22 +919,22 @@
 }
 
 .button_kap {
-    position: absolute;
+    /* position: absolute;
     width: 150px;
     height: 36px;
     left: 249px;
-    top: -1px;
+    top: -1px; */
     border: 2px solid transparent;
     
     background: #00A4E5;
 }
 
 .button_kaps_1 {
-    position: absolute;
+    /* position: absolute;
     width: 52px;
     height: 18px;
     left: 48.5px;
-    top: 11px;
+    top: 11px; */
     border: none;
     
     font-family: Open Sans;
