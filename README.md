@@ -1,3 +1,4 @@
-git add .
-git commit -m "Meeting 1" (Урок 1 меняется на нужный)
-git push
+# FEO2209
+2209
+https://supernet.com.ua/ - automatic!
+[GitHub] (https://supernet.com.ua/)
